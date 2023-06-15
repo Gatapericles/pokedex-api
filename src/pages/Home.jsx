@@ -48,10 +48,10 @@ const ElementsIcon = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margim-bottom: 15px;
+    margin-bottom: 15px;
     cursor: pointer;
     & span {
-        color: ${(props) => props.theme.backgroundColor}
+        color: ${(props) => props.theme.backgroundColor};
         font-weight: bold;
         font-size: 18px;
     }
@@ -66,8 +66,8 @@ const MorePokemons = styled.div`
 const Button = styled.div`
     border: 2px solid;
     border-radius: 10px;
-    background-color: ${(props) => props.theme.Color}
-    color: ${(props) => props.theme.backgroundColor}
+    background-color: ${(props) => props.theme.Color};
+    color: ${(props) => props.theme.backgroundColor};
     font-weight: bold;
     font-size: 16px;
     padding: 10px 20px;

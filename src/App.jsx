@@ -51,7 +51,6 @@ const GlobalStyle = createGlobalStyle`
 
   ::-webkit-scrollbar  {
     width: 5px;
-    background-color: rgb(189, 226, 247);
-
+    background-color: #eee;
   }
 `  

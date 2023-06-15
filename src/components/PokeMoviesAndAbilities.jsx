@@ -60,7 +60,7 @@ const MovesAndAbilitiesContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  jsutify-content: center;
+  justify-content: center;
   padding: 30px;
   gap: 20px;
 `
@@ -81,6 +81,9 @@ const AbilitiesContainer = styled.div`
     text-transform: capitalize;
     line-height: 24px;
     gap: 7px;
+    @media (max-width: 425px) {
+      font-size: 10px;
+    }
   }
 `
 const MovesContainer = styled.div`

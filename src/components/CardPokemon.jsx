@@ -123,13 +123,13 @@ export const CardPoke = ({pokemon}) => {
 
 const AnimatedBorder = keyframes`
   0% {
-    background: linear-gradient(90deg ) ;
+    background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff) ;
   }
   50% {
-    background-color: ;
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff) ;
   }
   100% {
-    background-color: ;
+    background: linear-gradient(22deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff);
   }
 `
 
@@ -421,7 +421,7 @@ const PokeElements = styled.div`
 
 const ElementsName = styled.span`
   color: #fff;
-  font-soze 14px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-shadow: 1px 1px 1px #000;

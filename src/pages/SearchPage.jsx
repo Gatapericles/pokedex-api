@@ -54,7 +54,7 @@ const PokeCardList = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  jsutify-content: center;
+  justify-content: center;
   padding: 30px;
   gap: 30px;
 `

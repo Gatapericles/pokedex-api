@@ -451,7 +451,7 @@ const AllStats = styled.div`
 const StatsBar = styled.div`
   width: 100%;
   height: 15px;
-  background-color: ${(props) => props.theme.Color}
+  background-color: ${(props) => props.theme.Color};
 `
 
 const ButtonMovesAndAbilities = styled.div`
@@ -462,8 +462,12 @@ const ButtonMovesAndAbilities = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 90px;
-  color: ${(props) => props.theme.backgroundColor}
-  background-color: ${(props) => props.theme.backgroundColor}
+  @media (max-width: 425px) {
+    margin-top: 230px;
+    font-size: 10px;
+  }
+  color: ${(props) => props.theme.backgroundColor};
+  background-color: ${(props) => props.theme.backgroundColor};
 `
 const Button = styled.button`
   display: flex;

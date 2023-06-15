@@ -136,9 +136,9 @@ const SearchButton = styled.button`
     font-size: 15px;
     font-weight: bold;
     padding: 5px 20px;
-    color: ${(props)  => props.theme.backgroundColor}
+    color: ${(props)  => props.theme.backgroundColor};
     cursor: pointer;    
-    background-color: ${(props)  => props.theme.Color}
+    background-color: ${(props)  => props.theme.Color};
 `
 
 
@@ -148,12 +148,11 @@ const InputSearch = styled.input`
     border: none;
     outline: none;
     font-size: 15px;
-    color: ${(props) => props.theme.Color}
+    color: ${(props) => props.theme.Color};
 `
 
 const IconSearch = styled.svg`
     width: 20px;
-    height: 20px
-    stroke: ${(props)  => props.theme.Color}
+    stroke: ${(props)  => props.theme.Color};
 `
 
